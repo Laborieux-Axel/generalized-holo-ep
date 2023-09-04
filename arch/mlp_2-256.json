@@ -1,0 +1,14 @@
+{
+    "in_size": 784,
+    "out_size": 10,
+    "shapes": {"l1": [256], "l2": [256], "out": [10]},
+    "connections": {
+        "in-l1":  "dense",
+
+        "l1-l2": "dense",
+        "l2-l1": "dense_nobias",
+
+        "l2-out": "dense",
+        "out-l2": "dense_nobias"
+    }
+}
