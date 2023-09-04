@@ -1,4 +1,8 @@
-# Instruction to reproduce
+# Improving equilibrium propagation without weight symmetry through Jacobian homeostasis
+ 
+This repository contains the code to reproduce the paper.
+
+![cartoon](figs/cartoon.pdf)
 
 ## Installing the environment
 
@@ -13,13 +17,15 @@ To install the environment with the latest Jax/Jaxlib (requires python>=3.7):
 python3 -m venv holo_vf
 source holo_vf/bin/activate
 pip install --upgrade pip setuptools
-pip install "jax[cuda11_cudnn82]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+pip install --upgrade "jax[cuda11_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 pip install flax
-pip install tensorflow==2.9.2
+pip install tensorflow
 pip install tensorflow-datasets
 pip install wandb
 pip install jupyter
 pip install matplotlib
 ```
 
-The command lines to reproduce the simulations are in `run.sh` file.
+## Reproducing
+
+The command lines to reproduce the simulations are in the `run.sh` file.
