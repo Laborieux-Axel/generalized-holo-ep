@@ -2,7 +2,7 @@
  
 This repository contains the code to reproduce the paper.
 
-![cartoon](figs/cartoon.pdf)
+![cartoon](figs/cartoon.png)
 
 ## Installing the environment
 
