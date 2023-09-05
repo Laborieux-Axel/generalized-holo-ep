@@ -25,7 +25,11 @@ pip install wandb
 pip install jupyter
 pip install matplotlib
 ```
+Additionally, you need to be logged in wandb, so run `wandb login` and enter 
+your private token.
 
 ## Reproducing
 
 The command lines to reproduce the simulations are in the `run.sh` file.
+Logging is done with weight and biases, so **make sure to edit line 60 of the
+train script with your account infos**.
